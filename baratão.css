@@ -1,29 +1,94 @@
 
 body {
-    background-image: url('inseto.jpeg');
-    background-size: cover;        
-    background-position: center;   
-    background-repeat: no-repeat;
-  margin: 0;
-  min-height: 100vh;
-  display: flex;
-  justify-content: left; 
-  align-items: left;
-  font-family: Arial, sans-serif;
+    margin: 0;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;      
+    justify-content: flex-start; 
+    align-items: center;         
+    font-family: Arial, sans-serif;
+}
 
+nav a{
+    color: white;
+    transition: transform 0.3s ease;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a{
+    text-decoration: none;
+    color: #082B57;
+    transition: 0.3s;
+    margin-top: 10px;
+    display: inline-block;
+    margin-top: -10px;
+}
+a:hover{
+    color: #082B57;
+
+}
+.cabesalho{
+    margin: 25px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    }
+.fundo{
+    background-color: #0047AB ;
+    border-radius: 5px;
+    height: 70% ;
+    width: 100%;
+    padding: 0px;
+}
+.cabesalho img{
+    width: 50px;
+    height: auto;
+    gap: 15px;
+}
+h1{
+    margin: 0;
+    padding: 0;
+    font-family: fantasy;
+    color: white;
+}
+    
+ ul{
+    display: flex;
+    list-style-type: none;
+    gap: 15px;
+    margin: 0;
+}
+.titulo{
+    color: #082B57;
+}   
+.titulo span {
+    color: #0878D1;
+}
+h1{
+    color: black;
+}
+
+
+.banner img{
+    width: 100%;
+    height: 135px;
+    align-items: center;
+    display: flex;
 }
 
 
 .corpo {
-    background-color: #5f7fe9d4; 
+    background-color: #0047AB
     padding: 50px;             
     border-radius: 12px;      
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); 
-    max-width: 400px;          
+    max-width: 600px;          
     width: 100%;               
-    text-align: left;        
+    text-align: center;      
+    color: rgb(0,0,0);
 }
-
 
 .corpo img {
     max-width: 100%;
@@ -32,10 +97,28 @@ body {
 }
 
 button{
-    width: 150px;
-    height: 45px;
+    width: 100px;
+    height: 35px;
     border: 5px;
     border-radius: 25px;
-    border-color: #5f7fe9d4;
+    background-color: rgba(104, 171, 253, 0.891);
+    color: rgb(87, 90, 94);
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(73, 146, 210);
+
 }
 
+.separador{
+    border: none;
+    border-radius: 70%;
+    height: 2px;
+    background-color: rgb(229, 230, 231);
+}
+
+p{
+    height: 35px;
+    font-size: 0.9rem;
+    color: rgb(87, 90, 94);
+}
